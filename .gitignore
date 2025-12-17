@@ -8,3 +8,8 @@ data/processed/
 data/raw/
 outputs/db/
 
+
+# generated data/db
+data/raw/
+outputs/db/
+
