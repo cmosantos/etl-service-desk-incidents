@@ -4,3 +4,7 @@ __pycache__/
 data/processed/
 .ipynb_checkpoints/
 
+
+data/raw/
+outputs/db/
+
