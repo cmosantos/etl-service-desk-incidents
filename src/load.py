@@ -11,30 +11,31 @@ def save_clean_csv(rows: list[dict], path: str) -> None:
         w.writeheader()
         w.writerows(rows)
 
-def save_sqlite(rows: list[dict], db_path: str, table="incidents") -> None:
+def save_sqlite(rows: list[dict], db_path: str, table: str = "incidents") -> None:
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
     if not rows:
         return
 
     cols = list(rows[0].keys())
+    col_names = ",".join([f'"{c}"' for c in cols])
     placeholders = ",".join(["?"] * len(cols))
-    col_sql = ",".join([f'"{c}" TEXT' for c in cols])  # simples (TEXT), suficiente pro desafio
+    col_sql = ",".join([f'"{c}" TEXT' for c in cols])
 
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
     cur.execute(f'DROP TABLE IF EXISTS "{table}"')
     cur.execute(f'CREATE TABLE "{table}" ({col_sql})')
 
-    cur.executemany(
-        f'INSERT INTO "{table}" ({",".join([f\'"{c}"\' for c in cols])}) VALUES ({placeholders})',
-        [[str(r.get(c, "")) for c in cols] for r in rows]
-    )
+    insert_sql = f'INSERT INTO "{table}" ({col_names}) VALUES ({placeholders})'
+    data = [[str(r.get(c, "")) for c in cols] for r in rows]
+    cur.executemany(insert_sql, data)
 
     conn.commit()
     conn.close()
 
-def save_report(md_path: str, metrics: dict, by_category: list[tuple[str,int]], by_priority: list[tuple[str,int]], breach_rate: list[tuple[str,float]]) -> None:
+def save_report(md_path: str, metrics: dict, by_category, by_priority, breach_rate) -> None:
     Path(md_path).parent.mkdir(parents=True, exist_ok=True)
+
     lines = []
     lines.append("# ETL Report\n")
     lines.append(f"- Rows in: **{metrics.get('rows_in')}**")
