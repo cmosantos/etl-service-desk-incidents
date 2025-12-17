@@ -1,25 +1,56 @@
+import csv
+import sqlite3
 from pathlib import Path
-from sqlalchemy import create_engine
 
-def save_parquet(df, path: str):
+def save_clean_csv(rows: list[dict], path: str) -> None:
     Path(path).parent.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(path, index=False)
+    if not rows:
+        return
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w.writeheader()
+        w.writerows(rows)
 
-def save_sqlite(df, db_path: str, table="incidents"):
+def save_sqlite(rows: list[dict], db_path: str, table="incidents") -> None:
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
-    engine = create_engine(f"sqlite:///{db_path}")
-    df.to_sql(table, engine, if_exists="replace", index=False)
+    if not rows:
+        return
 
-def save_reports(aggs, md_path: str):
-    out_dir = Path(md_path).parent
-    out_dir.mkdir(parents=True, exist_ok=True)
+    cols = list(rows[0].keys())
+    placeholders = ",".join(["?"] * len(cols))
+    col_sql = ",".join([f'"{c}" TEXT' for c in cols])  # simples (TEXT), suficiente pro desafio
 
-    lines = ["# ETL Report\n"]
-    for name, table in aggs.items():
-        csv_path = out_dir / f"{name}.csv"
-        table.to_csv(csv_path, index=False)
-        lines.append(f"## {name}\n")
-        lines.append(table.head(20).to_markdown(index=False))
-        lines.append("\n")
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    cur.execute(f'DROP TABLE IF EXISTS "{table}"')
+    cur.execute(f'CREATE TABLE "{table}" ({col_sql})')
+
+    cur.executemany(
+        f'INSERT INTO "{table}" ({",".join([f\'"{c}"\' for c in cols])}) VALUES ({placeholders})',
+        [[str(r.get(c, "")) for c in cols] for r in rows]
+    )
+
+    conn.commit()
+    conn.close()
+
+def save_report(md_path: str, metrics: dict, by_category: list[tuple[str,int]], by_priority: list[tuple[str,int]], breach_rate: list[tuple[str,float]]) -> None:
+    Path(md_path).parent.mkdir(parents=True, exist_ok=True)
+    lines = []
+    lines.append("# ETL Report\n")
+    lines.append(f"- Rows in: **{metrics.get('rows_in')}**")
+    lines.append(f"- Rows out: **{metrics.get('rows_out')}**")
+    lines.append(f"- Dropped: **{metrics.get('dropped')}**\n")
+
+    def table(title, header, rows):
+        lines.append(f"## {title}\n")
+        lines.append("| " + " | ".join(header) + " |")
+        lines.append("| " + " | ".join(["---"] * len(header)) + " |")
+        for r in rows:
+            lines.append("| " + " | ".join(r) + " |")
+        lines.append("")
+
+    table("By Category (Pred)", ["category_pred", "count"], [[k, str(v)] for k, v in by_category])
+    table("By Priority", ["priority", "count"], [[k, str(v)] for k, v in by_priority])
+    table("SLA Breach Rate", ["priority", "breach_rate"], [[p, f"{rate:.2%}"] for p, rate in breach_rate])
 
     Path(md_path).write_text("\n".join(lines), encoding="utf-8")

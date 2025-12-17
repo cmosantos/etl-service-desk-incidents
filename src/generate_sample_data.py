@@ -1,21 +1,24 @@
+import csv
 import random
 from datetime import datetime, timedelta
-import pandas as pd
+from pathlib import Path
 
 CATEGORIES = ["Rede", "Servidor", "M365", "Acesso", "Backup"]
 PRIORITIES = ["P1", "P2", "P3", "P4"]
 
 TEMPLATES = {
-    "Rede": ["Link intermitente", "Perda de pacote", "VPN caiu", "Switch sem resposta", "Latência alta"],
+    "Rede": ["VPN caiu", "Switch sem resposta", "Latência alta", "Perda de pacote", "Link intermitente"],
     "Servidor": ["CPU alta", "Disco cheio", "Serviço não inicia", "Reboot inesperado", "VM travada"],
-    "M365": ["Outlook não abre", "Login falhando", "Teams com erro", "Exchange com atraso", "Defender alerta"],
-    "Acesso": ["Usuário bloqueado", "Senha expirada", "Sem permissão", "MFA falhando", "Conta desabilitada"],
+    "M365": ["Outlook não abre", "Teams com erro", "Login falhando", "Exchange com atraso", "Defender alerta"],
+    "Acesso": ["Senha expirada", "Usuário bloqueado", "Sem permissão", "MFA falhando", "Conta desabilitada"],
     "Backup": ["Job falhou", "Backup lento", "Restore necessário", "Veeam erro", "Storage sem espaço"],
 }
 
 def main(out_path="data/raw/incidents.csv", n=500, seed=42):
     random.seed(seed)
     base = datetime.now() - timedelta(days=30)
+
+    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
 
     rows = []
     for i in range(1, n + 1):
@@ -31,8 +34,8 @@ def main(out_path="data/raw/incidents.csv", n=500, seed=42):
 
         rows.append({
             "ticket_id": f"INC{i:06d}",
-            "created_at": created.isoformat(),
-            "resolved_at": resolved.isoformat(),
+            "created_at": created.isoformat(timespec="seconds"),
+            "resolved_at": resolved.isoformat(timespec="seconds"),
             "priority": pri,
             "category": cat,
             "title": title,
@@ -40,9 +43,12 @@ def main(out_path="data/raw/incidents.csv", n=500, seed=42):
             "requester": f"user{random.randint(1,120):03d}@empresa.com",
         })
 
-    df = pd.DataFrame(rows)
-    df.to_csv(out_path, index=False)
-    print(f"OK: {out_path} ({len(df)} linhas)")
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w.writeheader()
+        w.writerows(rows)
+
+    print(f"OK: {out_path} ({len(rows)} linhas)")
 
 if __name__ == "__main__":
     main()

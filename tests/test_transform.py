@@ -1,18 +1,23 @@
-import pandas as pd
+import unittest
 from src.transform import transform
 
-def test_transform_outputs_columns():
-    df = pd.DataFrame([{
-        "ticket_id":"INC000001",
-        "created_at":"2025-12-01T10:00:00",
-        "resolved_at":"2025-12-01T11:00:00",
-        "priority":"P2",
-        "category":"Rede",
-        "title":"VPN caiu",
-        "description":"Usuários sem acesso",
-    }])
-    out, metrics = transform(df)
-    assert "resolution_minutes" in out.columns
-    assert "is_sla_breach" in out.columns
-    assert "category_pred" in out.columns
-    assert isinstance(metrics, dict)
+class TestTransform(unittest.TestCase):
+    def test_transform_adds_fields(self):
+        rows = [{
+            "ticket_id": "INC000001",
+            "created_at": "2025-12-01T10:00:00",
+            "resolved_at": "2025-12-01T11:00:00",
+            "priority": "P2",
+            "category": "Rede",
+            "title": "VPN caiu",
+            "description": "Usuários sem acesso",
+            "requester": "user001@empresa.com",
+        }]
+        out, metrics = transform(rows)
+        self.assertEqual(metrics["rows_out"], 1)
+        self.assertIn("resolution_minutes", out[0])
+        self.assertIn("is_sla_breach", out[0])
+        self.assertIn("category_pred", out[0])
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,0 +1,501 @@
+ticket_id,created_at,resolved_at,priority,category,title,description,requester
+INC000001,2025-11-29T11:08:03,2025-11-29T12:15:03,P1,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user018@empresa.com
+INC000002,2025-12-13T19:42:03,2025-12-13T21:35:03,P1,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user004@empresa.com
+INC000003,2025-11-27T12:51:03,2025-11-27T15:05:03,P2,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user004@empresa.com
+INC000004,2025-12-16T12:34:03,2025-12-16T14:58:03,P2,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000005,2025-11-17T05:49:03,2025-11-17T09:13:03,P3,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user090@empresa.com
+INC000006,2025-11-29T14:14:03,2025-11-29T15:03:03,P3,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000007,2025-11-21T04:02:03,2025-11-21T05:44:03,P1,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user046@empresa.com
+INC000008,2025-11-18T22:11:03,2025-11-19T01:27:03,P3,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user069@empresa.com
+INC000009,2025-11-20T12:48:03,2025-11-20T15:19:03,P4,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user107@empresa.com
+INC000010,2025-12-13T05:21:03,2025-12-13T06:20:03,P3,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user006@empresa.com
+INC000011,2025-11-20T13:53:03,2025-11-20T17:41:03,P3,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user111@empresa.com
+INC000012,2025-11-29T14:21:03,2025-11-29T16:27:03,P4,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user021@empresa.com
+INC000013,2025-11-26T11:34:03,2025-11-26T14:35:03,P3,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user090@empresa.com
+INC000014,2025-12-11T06:09:03,2025-12-11T07:16:03,P2,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user060@empresa.com
+INC000015,2025-12-16T01:47:03,2025-12-16T04:53:03,P3,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000016,2025-11-27T08:54:03,2025-11-27T09:07:03,P1,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user052@empresa.com
+INC000017,2025-11-26T13:10:03,2025-11-26T15:40:03,P1,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user028@empresa.com
+INC000018,2025-12-16T04:53:03,2025-12-16T07:00:03,P4,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user034@empresa.com
+INC000019,2025-12-12T11:53:03,2025-12-12T14:15:03,P2,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user096@empresa.com
+INC000020,2025-12-13T12:06:03,2025-12-13T13:58:03,P4,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000021,2025-11-21T02:01:03,2025-11-21T05:24:03,P4,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user111@empresa.com
+INC000022,2025-12-15T12:04:03,2025-12-15T12:49:03,P2,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user077@empresa.com
+INC000023,2025-12-04T07:33:03,2025-12-04T10:15:03,P4,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user068@empresa.com
+INC000024,2025-11-22T03:51:03,2025-11-22T06:50:03,P1,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user097@empresa.com
+INC000025,2025-11-22T00:34:03,2025-11-22T01:59:03,P3,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user021@empresa.com
+INC000026,2025-11-28T22:25:03,2025-11-29T00:38:03,P1,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user065@empresa.com
+INC000027,2025-12-16T00:38:03,2025-12-16T02:57:03,P3,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user026@empresa.com
+INC000028,2025-11-24T07:11:03,2025-11-24T09:39:03,P3,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user118@empresa.com
+INC000029,2025-12-09T04:25:03,2025-12-09T04:39:03,P3,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user119@empresa.com
+INC000030,2025-11-27T20:16:03,2025-11-27T20:40:03,P3,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user113@empresa.com
+INC000031,2025-11-20T20:17:03,2025-11-20T22:26:03,P1,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000032,2025-11-22T18:58:03,2025-11-22T21:51:03,P2,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user071@empresa.com
+INC000033,2025-12-10T23:05:03,2025-12-11T02:58:03,P3,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user055@empresa.com
+INC000034,2025-12-01T03:12:03,2025-12-01T04:59:03,P2,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user057@empresa.com
+INC000035,2025-11-22T10:54:03,2025-11-22T12:07:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user009@empresa.com
+INC000036,2025-12-13T17:19:03,2025-12-13T19:45:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user076@empresa.com
+INC000037,2025-11-20T04:16:03,2025-11-20T07:02:03,P1,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user030@empresa.com
+INC000038,2025-12-01T23:38:03,2025-12-02T00:01:03,P1,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000039,2025-11-26T16:44:03,2025-11-26T19:12:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user093@empresa.com
+INC000040,2025-11-28T00:09:03,2025-11-28T03:39:03,P4,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user104@empresa.com
+INC000041,2025-11-21T05:45:03,2025-11-21T06:14:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user046@empresa.com
+INC000042,2025-12-08T04:50:03,2025-12-08T08:41:03,P4,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user087@empresa.com
+INC000043,2025-12-05T06:30:03,2025-12-05T08:01:03,P1,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user032@empresa.com
+INC000044,2025-12-11T08:30:03,2025-12-11T10:29:03,P2,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user055@empresa.com
+INC000045,2025-12-08T00:02:03,2025-12-08T01:15:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user057@empresa.com
+INC000046,2025-11-19T05:59:03,2025-11-19T08:50:03,P1,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user108@empresa.com
+INC000047,2025-11-27T16:55:03,2025-11-27T17:42:03,P1,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user063@empresa.com
+INC000048,2025-12-05T04:46:03,2025-12-05T05:06:03,P2,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user049@empresa.com
+INC000049,2025-11-29T00:24:03,2025-11-29T03:54:03,P4,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000050,2025-11-23T23:48:03,2025-11-24T00:46:03,P4,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user028@empresa.com
+INC000051,2025-12-01T05:16:03,2025-12-01T05:35:03,P1,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user075@empresa.com
+INC000052,2025-11-19T12:51:03,2025-11-19T15:06:03,P2,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user109@empresa.com
+INC000053,2025-12-14T00:40:03,2025-12-14T01:02:03,P1,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user052@empresa.com
+INC000054,2025-12-13T07:04:03,2025-12-13T09:41:03,P2,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user080@empresa.com
+INC000055,2025-12-16T20:45:03,2025-12-16T23:24:03,P4,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user067@empresa.com
+INC000056,2025-11-26T05:50:03,2025-11-26T08:51:03,P3,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000057,2025-11-22T21:41:03,2025-11-23T00:42:03,P4,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user059@empresa.com
+INC000058,2025-11-17T08:54:03,2025-11-17T10:56:03,P1,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user073@empresa.com
+INC000059,2025-12-11T09:58:03,2025-12-11T10:57:03,P1,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user034@empresa.com
+INC000060,2025-11-20T01:52:03,2025-11-20T05:47:03,P3,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000061,2025-12-06T21:20:03,2025-12-06T23:44:03,P2,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user079@empresa.com
+INC000062,2025-12-12T04:30:03,2025-12-12T05:51:03,P1,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user113@empresa.com
+INC000063,2025-11-22T04:48:03,2025-11-22T08:45:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user096@empresa.com
+INC000064,2025-11-29T08:12:03,2025-11-29T09:29:03,P2,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user027@empresa.com
+INC000065,2025-12-15T19:29:03,2025-12-15T20:41:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user063@empresa.com
+INC000066,2025-11-21T03:32:03,2025-11-21T06:19:03,P1,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user107@empresa.com
+INC000067,2025-11-17T02:36:03,2025-11-17T04:06:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user082@empresa.com
+INC000068,2025-12-07T01:20:03,2025-12-07T03:46:03,P2,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user072@empresa.com
+INC000069,2025-11-20T08:55:03,2025-11-20T09:38:03,P1,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user005@empresa.com
+INC000070,2025-12-06T12:10:03,2025-12-06T12:47:03,P2,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user040@empresa.com
+INC000071,2025-12-03T05:33:03,2025-12-03T06:31:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user086@empresa.com
+INC000072,2025-12-12T10:16:03,2025-12-12T14:12:03,P3,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user080@empresa.com
+INC000073,2025-11-24T08:13:03,2025-11-24T09:03:03,P2,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user004@empresa.com
+INC000074,2025-12-05T16:26:03,2025-12-05T20:01:03,P3,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user035@empresa.com
+INC000075,2025-12-04T08:34:03,2025-12-04T08:48:03,P1,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000076,2025-12-02T20:39:03,2025-12-02T22:07:03,P4,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000077,2025-12-05T01:57:03,2025-12-05T03:26:03,P2,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user111@empresa.com
+INC000078,2025-12-02T22:16:03,2025-12-03T01:10:03,P3,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user052@empresa.com
+INC000079,2025-11-18T04:52:03,2025-11-18T05:31:03,P3,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user023@empresa.com
+INC000080,2025-11-18T16:31:03,2025-11-18T17:08:03,P3,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user056@empresa.com
+INC000081,2025-12-06T19:23:03,2025-12-06T22:08:03,P3,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user015@empresa.com
+INC000082,2025-11-28T12:57:03,2025-11-28T13:13:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user001@empresa.com
+INC000083,2025-12-03T12:33:03,2025-12-03T14:28:03,P2,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user086@empresa.com
+INC000084,2025-11-22T14:51:03,2025-11-22T18:05:03,P3,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user065@empresa.com
+INC000085,2025-12-01T19:00:03,2025-12-01T20:53:03,P4,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user071@empresa.com
+INC000086,2025-12-06T01:58:03,2025-12-06T04:53:03,P2,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user087@empresa.com
+INC000087,2025-12-05T10:16:03,2025-12-05T12:46:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user039@empresa.com
+INC000088,2025-12-06T12:17:03,2025-12-06T14:50:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user084@empresa.com
+INC000089,2025-12-07T01:16:03,2025-12-07T03:19:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user066@empresa.com
+INC000090,2025-12-16T22:22:03,2025-12-16T22:48:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user066@empresa.com
+INC000091,2025-11-21T04:44:03,2025-11-21T08:23:03,P3,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user087@empresa.com
+INC000092,2025-11-26T00:14:03,2025-11-26T00:56:03,P2,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user006@empresa.com
+INC000093,2025-12-14T18:24:03,2025-12-14T22:11:03,P4,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user059@empresa.com
+INC000094,2025-12-04T10:08:03,2025-12-04T12:19:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user032@empresa.com
+INC000095,2025-11-21T19:09:03,2025-11-21T21:02:03,P1,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user023@empresa.com
+INC000096,2025-11-19T05:35:03,2025-11-19T08:07:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user118@empresa.com
+INC000097,2025-11-23T00:22:03,2025-11-23T03:57:03,P4,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user086@empresa.com
+INC000098,2025-12-07T02:08:03,2025-12-07T04:54:03,P3,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user055@empresa.com
+INC000099,2025-11-24T04:34:03,2025-11-24T07:54:03,P4,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user058@empresa.com
+INC000100,2025-12-15T23:13:03,2025-12-16T00:28:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user063@empresa.com
+INC000101,2025-12-06T23:11:03,2025-12-06T23:40:03,P3,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000102,2025-12-01T11:56:03,2025-12-01T15:54:03,P3,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user011@empresa.com
+INC000103,2025-11-27T11:19:03,2025-11-27T13:02:03,P2,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user091@empresa.com
+INC000104,2025-12-05T19:52:03,2025-12-05T21:41:03,P1,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user070@empresa.com
+INC000105,2025-11-19T18:44:03,2025-11-19T19:46:03,P4,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user050@empresa.com
+INC000106,2025-12-13T03:32:03,2025-12-13T05:14:03,P1,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user001@empresa.com
+INC000107,2025-12-04T16:42:03,2025-12-04T20:30:03,P3,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user069@empresa.com
+INC000108,2025-12-09T04:00:03,2025-12-09T05:01:03,P2,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user056@empresa.com
+INC000109,2025-12-04T15:28:03,2025-12-04T16:59:03,P1,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user093@empresa.com
+INC000110,2025-11-22T18:08:03,2025-11-22T20:57:03,P4,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user004@empresa.com
+INC000111,2025-11-20T18:25:03,2025-11-20T21:14:03,P1,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user018@empresa.com
+INC000112,2025-11-19T05:39:03,2025-11-19T06:50:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user042@empresa.com
+INC000113,2025-12-01T19:44:03,2025-12-01T21:20:03,P4,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user036@empresa.com
+INC000114,2025-11-20T16:11:03,2025-11-20T18:21:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user096@empresa.com
+INC000115,2025-12-02T20:59:03,2025-12-02T22:01:03,P1,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user100@empresa.com
+INC000116,2025-11-28T04:49:03,2025-11-28T05:45:03,P1,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user080@empresa.com
+INC000117,2025-11-22T16:36:03,2025-11-22T18:42:03,P2,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user073@empresa.com
+INC000118,2025-11-28T14:37:03,2025-11-28T18:03:03,P4,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user022@empresa.com
+INC000119,2025-11-24T09:36:03,2025-11-24T11:00:03,P1,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user075@empresa.com
+INC000120,2025-12-13T03:39:03,2025-12-13T06:42:03,P3,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user051@empresa.com
+INC000121,2025-12-13T21:27:03,2025-12-14T00:12:03,P1,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user014@empresa.com
+INC000122,2025-12-12T16:52:03,2025-12-12T17:07:03,P1,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user069@empresa.com
+INC000123,2025-11-20T02:03:03,2025-11-20T04:22:03,P3,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user002@empresa.com
+INC000124,2025-11-21T18:00:03,2025-11-21T20:00:03,P4,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user082@empresa.com
+INC000125,2025-12-06T18:24:03,2025-12-06T19:14:03,P2,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user084@empresa.com
+INC000126,2025-12-08T02:29:03,2025-12-08T04:30:03,P4,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user035@empresa.com
+INC000127,2025-11-20T21:23:03,2025-11-20T22:39:03,P2,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user032@empresa.com
+INC000128,2025-12-02T06:10:03,2025-12-02T06:27:03,P4,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user109@empresa.com
+INC000129,2025-12-09T03:16:03,2025-12-09T04:15:03,P2,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user103@empresa.com
+INC000130,2025-11-29T16:11:03,2025-11-29T20:06:03,P3,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user090@empresa.com
+INC000131,2025-12-10T11:01:03,2025-12-10T11:54:03,P1,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000132,2025-12-12T05:08:03,2025-12-12T08:32:03,P4,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user089@empresa.com
+INC000133,2025-12-07T08:15:03,2025-12-07T11:47:03,P4,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user012@empresa.com
+INC000134,2025-12-05T08:26:03,2025-12-05T09:33:03,P2,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user085@empresa.com
+INC000135,2025-12-08T11:39:03,2025-12-08T14:10:03,P3,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user045@empresa.com
+INC000136,2025-12-02T23:00:03,2025-12-03T02:09:03,P3,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user035@empresa.com
+INC000137,2025-11-27T10:32:03,2025-11-27T11:12:03,P3,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user041@empresa.com
+INC000138,2025-11-25T15:56:03,2025-11-25T16:56:03,P2,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user036@empresa.com
+INC000139,2025-11-21T12:32:03,2025-11-21T16:15:03,P3,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user038@empresa.com
+INC000140,2025-11-25T02:43:03,2025-11-25T04:10:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user091@empresa.com
+INC000141,2025-11-29T10:21:03,2025-11-29T10:37:03,P2,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user071@empresa.com
+INC000142,2025-12-15T23:27:03,2025-12-16T01:37:03,P2,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user112@empresa.com
+INC000143,2025-12-08T07:26:03,2025-12-08T09:38:03,P3,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user044@empresa.com
+INC000144,2025-11-28T10:30:03,2025-11-28T12:37:03,P1,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user106@empresa.com
+INC000145,2025-12-09T07:51:03,2025-12-09T08:19:03,P4,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user081@empresa.com
+INC000146,2025-11-23T17:41:03,2025-11-23T20:10:03,P2,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user011@empresa.com
+INC000147,2025-12-12T08:17:03,2025-12-12T10:08:03,P1,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user077@empresa.com
+INC000148,2025-12-10T17:31:03,2025-12-10T19:13:03,P2,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user117@empresa.com
+INC000149,2025-12-13T17:33:03,2025-12-13T19:32:03,P3,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user073@empresa.com
+INC000150,2025-12-14T16:36:03,2025-12-14T17:06:03,P1,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user081@empresa.com
+INC000151,2025-11-20T15:24:03,2025-11-20T16:14:03,P3,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user023@empresa.com
+INC000152,2025-11-24T01:42:03,2025-11-24T01:47:03,P1,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user058@empresa.com
+INC000153,2025-11-30T04:51:03,2025-11-30T05:09:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000154,2025-11-20T04:28:03,2025-11-20T07:33:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user119@empresa.com
+INC000155,2025-12-06T07:05:03,2025-12-06T07:39:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000156,2025-11-23T10:05:03,2025-11-23T10:33:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user022@empresa.com
+INC000157,2025-12-06T22:24:03,2025-12-06T23:05:03,P3,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user089@empresa.com
+INC000158,2025-11-29T08:05:03,2025-11-29T10:23:03,P4,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user064@empresa.com
+INC000159,2025-12-14T03:56:03,2025-12-14T04:11:03,P1,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user095@empresa.com
+INC000160,2025-11-18T02:59:03,2025-11-18T03:32:03,P3,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user087@empresa.com
+INC000161,2025-11-29T05:06:03,2025-11-29T07:38:03,P1,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000162,2025-12-10T13:34:03,2025-12-10T16:30:03,P4,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user118@empresa.com
+INC000163,2025-12-13T14:04:03,2025-12-13T16:00:03,P2,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user012@empresa.com
+INC000164,2025-12-05T12:45:03,2025-12-05T14:20:03,P3,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user086@empresa.com
+INC000165,2025-12-01T22:58:03,2025-12-02T00:48:03,P2,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000166,2025-12-07T15:31:03,2025-12-07T15:58:03,P1,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user033@empresa.com
+INC000167,2025-12-05T08:12:03,2025-12-05T10:28:03,P1,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user085@empresa.com
+INC000168,2025-12-05T18:06:03,2025-12-05T18:29:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user067@empresa.com
+INC000169,2025-12-15T09:50:03,2025-12-15T11:53:03,P4,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user027@empresa.com
+INC000170,2025-11-30T01:20:03,2025-11-30T03:17:03,P2,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user016@empresa.com
+INC000171,2025-11-24T03:43:03,2025-11-24T05:07:03,P2,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user002@empresa.com
+INC000172,2025-11-21T04:32:03,2025-11-21T05:39:03,P4,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user060@empresa.com
+INC000173,2025-12-09T15:05:03,2025-12-09T16:24:03,P2,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user091@empresa.com
+INC000174,2025-12-08T21:45:03,2025-12-08T23:55:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user059@empresa.com
+INC000175,2025-12-04T09:42:03,2025-12-04T10:35:03,P2,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user066@empresa.com
+INC000176,2025-11-29T12:28:03,2025-11-29T14:19:03,P1,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user120@empresa.com
+INC000177,2025-11-17T01:32:03,2025-11-17T02:54:03,P3,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user108@empresa.com
+INC000178,2025-11-23T17:02:03,2025-11-23T19:06:03,P4,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user062@empresa.com
+INC000179,2025-12-12T01:34:03,2025-12-12T04:59:03,P3,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user049@empresa.com
+INC000180,2025-11-25T12:47:03,2025-11-25T15:55:03,P3,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user074@empresa.com
+INC000181,2025-12-05T15:24:03,2025-12-05T15:40:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user096@empresa.com
+INC000182,2025-12-04T12:26:03,2025-12-04T15:25:03,P4,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user064@empresa.com
+INC000183,2025-12-09T19:22:03,2025-12-09T21:58:03,P2,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user112@empresa.com
+INC000184,2025-11-21T11:38:03,2025-11-21T14:02:03,P4,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user002@empresa.com
+INC000185,2025-12-16T17:55:03,2025-12-16T18:44:03,P4,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user061@empresa.com
+INC000186,2025-12-15T07:29:03,2025-12-15T10:36:03,P3,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user084@empresa.com
+INC000187,2025-12-11T05:35:03,2025-12-11T07:22:03,P3,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user081@empresa.com
+INC000188,2025-12-15T01:09:03,2025-12-15T01:31:03,P1,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user081@empresa.com
+INC000189,2025-11-21T01:27:03,2025-11-21T03:23:03,P2,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000190,2025-11-24T12:26:03,2025-11-24T15:33:03,P4,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user116@empresa.com
+INC000191,2025-12-01T17:02:03,2025-12-01T17:21:03,P1,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user046@empresa.com
+INC000192,2025-11-23T13:44:03,2025-11-23T14:56:03,P4,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user053@empresa.com
+INC000193,2025-11-24T16:24:03,2025-11-24T17:13:03,P2,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user079@empresa.com
+INC000194,2025-12-09T14:19:03,2025-12-09T16:53:03,P2,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user030@empresa.com
+INC000195,2025-12-07T20:42:03,2025-12-07T21:57:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user116@empresa.com
+INC000196,2025-12-11T19:45:03,2025-12-11T20:35:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user057@empresa.com
+INC000197,2025-12-16T00:37:03,2025-12-16T02:35:03,P3,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user059@empresa.com
+INC000198,2025-12-04T10:55:03,2025-12-04T13:03:03,P2,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000199,2025-12-13T02:34:03,2025-12-13T03:59:03,P3,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user003@empresa.com
+INC000200,2025-11-17T07:34:03,2025-11-17T10:08:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user117@empresa.com
+INC000201,2025-11-29T23:20:03,2025-11-30T02:48:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user078@empresa.com
+INC000202,2025-12-15T22:05:03,2025-12-15T22:58:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user033@empresa.com
+INC000203,2025-12-15T12:05:03,2025-12-15T14:55:03,P1,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user040@empresa.com
+INC000204,2025-12-13T07:46:03,2025-12-13T09:24:03,P1,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user012@empresa.com
+INC000205,2025-12-05T20:34:03,2025-12-05T21:28:03,P3,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user017@empresa.com
+INC000206,2025-12-11T02:33:03,2025-12-11T04:51:03,P3,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user107@empresa.com
+INC000207,2025-12-08T21:02:03,2025-12-09T00:38:03,P3,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user096@empresa.com
+INC000208,2025-12-08T06:16:03,2025-12-08T06:40:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user097@empresa.com
+INC000209,2025-12-12T07:28:03,2025-12-12T09:11:03,P4,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user102@empresa.com
+INC000210,2025-11-28T23:35:03,2025-11-29T01:57:03,P1,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user059@empresa.com
+INC000211,2025-12-13T13:13:03,2025-12-13T15:00:03,P3,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user014@empresa.com
+INC000212,2025-11-18T02:04:03,2025-11-18T04:52:03,P4,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user042@empresa.com
+INC000213,2025-12-16T10:08:03,2025-12-16T10:29:03,P2,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user117@empresa.com
+INC000214,2025-11-22T06:10:03,2025-11-22T06:55:03,P4,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user005@empresa.com
+INC000215,2025-11-22T05:34:03,2025-11-22T06:08:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user114@empresa.com
+INC000216,2025-12-04T15:14:03,2025-12-04T17:15:03,P2,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user086@empresa.com
+INC000217,2025-12-13T16:15:03,2025-12-13T19:35:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user114@empresa.com
+INC000218,2025-12-09T05:13:03,2025-12-09T07:55:03,P1,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user036@empresa.com
+INC000219,2025-11-26T20:02:03,2025-11-26T22:05:03,P3,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000220,2025-12-03T15:57:03,2025-12-03T18:21:03,P1,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user008@empresa.com
+INC000221,2025-11-25T14:03:03,2025-11-25T14:44:03,P3,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user012@empresa.com
+INC000222,2025-11-19T05:58:03,2025-11-19T07:28:03,P1,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user017@empresa.com
+INC000223,2025-11-20T01:40:03,2025-11-20T04:06:03,P2,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user076@empresa.com
+INC000224,2025-12-01T21:36:03,2025-12-01T22:18:03,P2,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user001@empresa.com
+INC000225,2025-11-22T20:43:03,2025-11-22T23:06:03,P2,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user103@empresa.com
+INC000226,2025-11-18T02:53:03,2025-11-18T03:31:03,P1,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user046@empresa.com
+INC000227,2025-11-17T15:58:03,2025-11-17T16:52:03,P3,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user007@empresa.com
+INC000228,2025-12-10T21:21:03,2025-12-10T22:00:03,P4,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user061@empresa.com
+INC000229,2025-12-10T07:19:03,2025-12-10T10:00:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user058@empresa.com
+INC000230,2025-12-14T22:35:03,2025-12-14T22:51:03,P2,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user039@empresa.com
+INC000231,2025-11-19T17:10:03,2025-11-19T19:17:03,P1,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user055@empresa.com
+INC000232,2025-12-07T03:13:03,2025-12-07T03:41:03,P4,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user042@empresa.com
+INC000233,2025-11-19T22:28:03,2025-11-19T23:05:03,P2,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user080@empresa.com
+INC000234,2025-12-04T06:46:03,2025-12-04T09:28:03,P3,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user038@empresa.com
+INC000235,2025-11-21T11:03:03,2025-11-21T14:36:03,P4,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user110@empresa.com
+INC000236,2025-12-06T12:29:03,2025-12-06T14:29:03,P2,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user053@empresa.com
+INC000237,2025-12-05T02:15:03,2025-12-05T04:11:03,P4,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user041@empresa.com
+INC000238,2025-11-28T13:08:03,2025-11-28T14:53:03,P3,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user088@empresa.com
+INC000239,2025-11-21T02:22:03,2025-11-21T02:48:03,P1,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user056@empresa.com
+INC000240,2025-11-22T20:51:03,2025-11-22T23:23:03,P3,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user076@empresa.com
+INC000241,2025-11-22T12:14:03,2025-11-22T14:09:03,P3,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user112@empresa.com
+INC000242,2025-11-30T00:54:03,2025-11-30T03:32:03,P1,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user046@empresa.com
+INC000243,2025-11-23T23:44:03,2025-11-24T02:37:03,P2,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000244,2025-12-12T06:19:03,2025-12-12T08:03:03,P3,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000245,2025-12-06T11:26:03,2025-12-06T13:54:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user079@empresa.com
+INC000246,2025-12-14T15:55:03,2025-12-14T18:48:03,P1,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user004@empresa.com
+INC000247,2025-12-01T00:13:03,2025-12-01T01:49:03,P3,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user001@empresa.com
+INC000248,2025-12-12T17:18:03,2025-12-12T20:11:03,P2,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user009@empresa.com
+INC000249,2025-11-21T02:57:03,2025-11-21T05:17:03,P1,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user049@empresa.com
+INC000250,2025-12-02T11:04:03,2025-12-02T11:54:03,P4,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user040@empresa.com
+INC000251,2025-11-19T08:11:03,2025-11-19T08:55:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user097@empresa.com
+INC000252,2025-11-20T15:50:03,2025-11-20T17:04:03,P1,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user085@empresa.com
+INC000253,2025-12-14T13:49:03,2025-12-14T15:52:03,P4,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user035@empresa.com
+INC000254,2025-12-02T15:45:03,2025-12-02T17:40:03,P1,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000255,2025-12-10T22:17:03,2025-12-11T01:17:03,P4,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user006@empresa.com
+INC000256,2025-12-14T05:21:03,2025-12-14T05:45:03,P4,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user027@empresa.com
+INC000257,2025-11-23T04:37:03,2025-11-23T05:47:03,P2,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user042@empresa.com
+INC000258,2025-12-09T14:00:03,2025-12-09T15:55:03,P1,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user017@empresa.com
+INC000259,2025-12-09T17:09:03,2025-12-09T19:37:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user010@empresa.com
+INC000260,2025-12-06T19:12:03,2025-12-06T19:21:03,P1,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user118@empresa.com
+INC000261,2025-12-13T03:36:03,2025-12-13T05:35:03,P3,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user052@empresa.com
+INC000262,2025-11-22T04:32:03,2025-11-22T06:25:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user042@empresa.com
+INC000263,2025-12-03T09:58:03,2025-12-03T10:30:03,P4,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user109@empresa.com
+INC000264,2025-12-06T18:36:03,2025-12-06T21:11:03,P2,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user068@empresa.com
+INC000265,2025-12-01T01:38:03,2025-12-01T04:58:03,P4,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000266,2025-11-20T10:09:03,2025-11-20T12:24:03,P2,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user068@empresa.com
+INC000267,2025-12-02T20:20:03,2025-12-02T21:54:03,P2,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000268,2025-11-28T14:19:03,2025-11-28T15:14:03,P2,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user078@empresa.com
+INC000269,2025-11-25T00:13:03,2025-11-25T02:58:03,P1,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user060@empresa.com
+INC000270,2025-12-12T15:18:03,2025-12-12T18:12:03,P4,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user042@empresa.com
+INC000271,2025-12-06T23:04:03,2025-12-06T23:26:03,P2,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user057@empresa.com
+INC000272,2025-12-13T20:43:03,2025-12-13T21:07:03,P3,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user065@empresa.com
+INC000273,2025-12-07T23:04:03,2025-12-08T01:09:03,P3,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user008@empresa.com
+INC000274,2025-11-20T10:32:03,2025-11-20T13:27:03,P3,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user079@empresa.com
+INC000275,2025-12-08T00:08:03,2025-12-08T02:46:03,P4,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user102@empresa.com
+INC000276,2025-12-12T23:08:03,2025-12-13T02:04:03,P4,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user042@empresa.com
+INC000277,2025-12-09T18:21:03,2025-12-09T19:09:03,P4,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user058@empresa.com
+INC000278,2025-11-20T18:50:03,2025-11-20T21:09:03,P3,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user006@empresa.com
+INC000279,2025-12-06T22:41:03,2025-12-07T01:05:03,P4,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user079@empresa.com
+INC000280,2025-12-03T21:59:03,2025-12-03T23:21:03,P3,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user053@empresa.com
+INC000281,2025-12-15T15:49:03,2025-12-15T18:39:03,P1,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user009@empresa.com
+INC000282,2025-12-12T08:10:03,2025-12-12T11:08:03,P1,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000283,2025-12-02T02:51:03,2025-12-02T03:16:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user085@empresa.com
+INC000284,2025-12-01T01:35:03,2025-12-01T04:32:03,P3,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user017@empresa.com
+INC000285,2025-12-01T00:52:03,2025-12-01T03:20:03,P1,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user083@empresa.com
+INC000286,2025-12-10T21:41:03,2025-12-10T22:09:03,P2,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user066@empresa.com
+INC000287,2025-12-03T10:47:03,2025-12-03T12:11:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user028@empresa.com
+INC000288,2025-11-25T16:27:03,2025-11-25T17:34:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user020@empresa.com
+INC000289,2025-11-21T13:12:03,2025-11-21T15:31:03,P3,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user107@empresa.com
+INC000290,2025-12-02T06:34:03,2025-12-02T09:17:03,P1,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user077@empresa.com
+INC000291,2025-11-24T07:57:03,2025-11-24T08:48:03,P2,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user104@empresa.com
+INC000292,2025-11-18T22:27:03,2025-11-19T00:22:03,P4,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user087@empresa.com
+INC000293,2025-12-14T17:39:03,2025-12-14T19:01:03,P4,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user030@empresa.com
+INC000294,2025-12-01T00:45:03,2025-12-01T02:50:03,P2,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000295,2025-12-07T23:00:03,2025-12-08T02:26:03,P4,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user100@empresa.com
+INC000296,2025-11-24T07:44:03,2025-11-24T11:23:03,P4,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user103@empresa.com
+INC000297,2025-11-28T07:48:03,2025-11-28T08:06:03,P2,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user112@empresa.com
+INC000298,2025-12-10T10:14:03,2025-12-10T10:50:03,P1,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user011@empresa.com
+INC000299,2025-12-07T09:30:03,2025-12-07T11:51:03,P3,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user107@empresa.com
+INC000300,2025-11-27T01:15:03,2025-11-27T03:15:03,P1,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user120@empresa.com
+INC000301,2025-11-19T08:54:03,2025-11-19T10:45:03,P4,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000302,2025-11-20T15:52:03,2025-11-20T17:37:03,P4,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user004@empresa.com
+INC000303,2025-12-16T12:39:03,2025-12-16T14:09:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user018@empresa.com
+INC000304,2025-12-08T10:46:03,2025-12-08T13:54:03,P3,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000305,2025-12-14T22:51:03,2025-12-14T23:02:03,P4,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user003@empresa.com
+INC000306,2025-11-23T18:02:03,2025-11-23T20:27:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user068@empresa.com
+INC000307,2025-11-30T01:25:03,2025-11-30T02:30:03,P1,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user016@empresa.com
+INC000308,2025-12-06T01:17:03,2025-12-06T04:05:03,P2,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user059@empresa.com
+INC000309,2025-12-09T16:40:03,2025-12-09T19:17:03,P1,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user003@empresa.com
+INC000310,2025-11-23T11:33:03,2025-11-23T12:52:03,P2,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user001@empresa.com
+INC000311,2025-11-27T21:29:03,2025-11-28T00:05:03,P3,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user024@empresa.com
+INC000312,2025-11-20T00:39:03,2025-11-20T03:03:03,P3,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user065@empresa.com
+INC000313,2025-12-04T17:12:03,2025-12-04T19:17:03,P1,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user082@empresa.com
+INC000314,2025-11-28T11:47:03,2025-11-28T15:08:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user046@empresa.com
+INC000315,2025-11-27T22:06:03,2025-11-28T01:23:03,P3,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user099@empresa.com
+INC000316,2025-11-23T00:27:03,2025-11-23T00:48:03,P3,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user070@empresa.com
+INC000317,2025-12-08T02:13:03,2025-12-08T04:20:03,P2,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user104@empresa.com
+INC000318,2025-12-07T18:38:03,2025-12-07T18:52:03,P1,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user026@empresa.com
+INC000319,2025-11-18T20:30:03,2025-11-18T21:55:03,P2,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user066@empresa.com
+INC000320,2025-11-28T11:25:03,2025-11-28T11:44:03,P4,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000321,2025-12-16T18:58:03,2025-12-16T20:27:03,P1,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user016@empresa.com
+INC000322,2025-12-05T03:39:03,2025-12-05T06:59:03,P4,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user115@empresa.com
+INC000323,2025-11-25T10:47:03,2025-11-25T13:04:03,P3,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000324,2025-11-20T16:58:03,2025-11-20T20:14:03,P3,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user011@empresa.com
+INC000325,2025-12-11T18:32:03,2025-12-11T19:52:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user014@empresa.com
+INC000326,2025-11-30T09:39:03,2025-11-30T11:07:03,P3,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user078@empresa.com
+INC000327,2025-12-07T03:35:03,2025-12-07T05:09:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user006@empresa.com
+INC000328,2025-11-29T10:37:03,2025-11-29T13:30:03,P4,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user010@empresa.com
+INC000329,2025-12-10T07:09:03,2025-12-10T10:44:03,P3,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user004@empresa.com
+INC000330,2025-11-18T12:44:03,2025-11-18T13:26:03,P4,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000331,2025-12-04T08:54:03,2025-12-04T11:29:03,P3,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user078@empresa.com
+INC000332,2025-12-03T19:55:03,2025-12-03T21:40:03,P4,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000333,2025-12-11T01:02:03,2025-12-11T02:40:03,P2,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user041@empresa.com
+INC000334,2025-11-22T02:38:03,2025-11-22T02:49:03,P2,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user064@empresa.com
+INC000335,2025-12-12T12:13:03,2025-12-12T12:53:03,P4,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user100@empresa.com
+INC000336,2025-11-26T17:06:03,2025-11-26T19:52:03,P4,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user089@empresa.com
+INC000337,2025-11-22T12:41:03,2025-11-22T13:20:03,P2,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user058@empresa.com
+INC000338,2025-11-20T22:37:03,2025-11-21T02:14:03,P4,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user086@empresa.com
+INC000339,2025-12-11T23:28:03,2025-12-12T01:51:03,P1,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user115@empresa.com
+INC000340,2025-12-15T23:16:03,2025-12-16T00:05:03,P2,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user066@empresa.com
+INC000341,2025-11-26T02:15:03,2025-11-26T02:55:03,P1,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user102@empresa.com
+INC000342,2025-12-03T08:55:03,2025-12-03T11:21:03,P1,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000343,2025-12-14T19:08:03,2025-12-14T19:35:03,P2,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user040@empresa.com
+INC000344,2025-12-10T20:55:03,2025-12-10T22:50:03,P4,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user106@empresa.com
+INC000345,2025-11-22T15:37:03,2025-11-22T17:03:03,P1,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user058@empresa.com
+INC000346,2025-11-22T18:54:03,2025-11-22T22:48:03,P3,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user082@empresa.com
+INC000347,2025-11-22T19:40:03,2025-11-22T21:35:03,P2,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user117@empresa.com
+INC000348,2025-12-10T12:38:03,2025-12-10T13:22:03,P1,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user022@empresa.com
+INC000349,2025-11-27T05:00:03,2025-11-27T06:38:03,P3,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user115@empresa.com
+INC000350,2025-11-28T08:27:03,2025-11-28T09:22:03,P1,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user036@empresa.com
+INC000351,2025-12-14T21:51:03,2025-12-15T00:17:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user065@empresa.com
+INC000352,2025-11-24T17:43:03,2025-11-24T20:36:03,P2,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user093@empresa.com
+INC000353,2025-12-12T14:21:03,2025-12-12T14:41:03,P3,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user011@empresa.com
+INC000354,2025-12-16T13:56:03,2025-12-16T14:59:03,P3,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user054@empresa.com
+INC000355,2025-12-09T14:43:03,2025-12-09T17:28:03,P1,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user038@empresa.com
+INC000356,2025-11-28T02:12:03,2025-11-28T05:48:03,P4,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user039@empresa.com
+INC000357,2025-11-19T16:10:03,2025-11-19T16:55:03,P1,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user054@empresa.com
+INC000358,2025-11-26T05:34:03,2025-11-26T07:11:03,P4,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user019@empresa.com
+INC000359,2025-12-02T15:58:03,2025-12-02T17:50:03,P3,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000360,2025-12-01T11:17:03,2025-12-01T12:23:03,P1,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user016@empresa.com
+INC000361,2025-11-28T05:31:03,2025-11-28T06:17:03,P4,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user007@empresa.com
+INC000362,2025-12-14T22:53:03,2025-12-15T00:50:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user111@empresa.com
+INC000363,2025-12-13T05:43:03,2025-12-13T08:57:03,P3,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user025@empresa.com
+INC000364,2025-12-10T08:57:03,2025-12-10T11:06:03,P4,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user113@empresa.com
+INC000365,2025-11-18T00:02:03,2025-11-18T00:35:03,P4,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user065@empresa.com
+INC000366,2025-11-26T17:43:03,2025-11-26T20:17:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user007@empresa.com
+INC000367,2025-12-09T11:17:03,2025-12-09T13:59:03,P3,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000368,2025-11-21T20:08:03,2025-11-21T22:03:03,P1,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user113@empresa.com
+INC000369,2025-12-05T07:11:03,2025-12-05T08:54:03,P3,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user052@empresa.com
+INC000370,2025-12-03T10:42:03,2025-12-03T13:08:03,P2,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user010@empresa.com
+INC000371,2025-12-11T23:19:03,2025-12-12T00:40:03,P4,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user088@empresa.com
+INC000372,2025-11-22T19:16:03,2025-11-22T19:45:03,P1,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000373,2025-11-23T12:18:03,2025-11-23T13:18:03,P3,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user066@empresa.com
+INC000374,2025-11-19T00:13:03,2025-11-19T00:27:03,P1,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user092@empresa.com
+INC000375,2025-12-10T13:58:03,2025-12-10T16:04:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user078@empresa.com
+INC000376,2025-12-01T20:57:03,2025-12-01T23:38:03,P2,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user021@empresa.com
+INC000377,2025-12-13T23:14:03,2025-12-14T00:50:03,P3,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user107@empresa.com
+INC000378,2025-12-12T13:35:03,2025-12-12T15:01:03,P4,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user105@empresa.com
+INC000379,2025-12-02T00:32:03,2025-12-02T03:34:03,P3,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user054@empresa.com
+INC000380,2025-12-15T14:03:03,2025-12-15T14:19:03,P3,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user061@empresa.com
+INC000381,2025-11-19T06:49:03,2025-11-19T09:23:03,P2,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user022@empresa.com
+INC000382,2025-11-23T16:08:03,2025-11-23T19:48:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user005@empresa.com
+INC000383,2025-11-25T15:07:03,2025-11-25T15:16:03,P1,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user041@empresa.com
+INC000384,2025-12-05T17:47:03,2025-12-05T18:44:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user065@empresa.com
+INC000385,2025-11-19T18:45:03,2025-11-19T21:55:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user067@empresa.com
+INC000386,2025-12-08T17:14:03,2025-12-08T19:38:03,P3,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user041@empresa.com
+INC000387,2025-12-11T05:03:03,2025-12-11T06:40:03,P4,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user046@empresa.com
+INC000388,2025-11-25T16:44:03,2025-11-25T17:57:03,P4,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user072@empresa.com
+INC000389,2025-11-30T11:48:03,2025-11-30T13:06:03,P2,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user089@empresa.com
+INC000390,2025-12-08T18:48:03,2025-12-08T20:27:03,P3,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user120@empresa.com
+INC000391,2025-11-22T11:51:03,2025-11-22T14:27:03,P3,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user049@empresa.com
+INC000392,2025-11-23T14:43:03,2025-11-23T16:07:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000393,2025-12-07T01:55:03,2025-12-07T04:52:03,P3,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user096@empresa.com
+INC000394,2025-11-26T03:26:03,2025-11-26T05:48:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user120@empresa.com
+INC000395,2025-11-23T04:40:03,2025-11-23T05:17:03,P3,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user095@empresa.com
+INC000396,2025-11-27T23:33:03,2025-11-27T23:50:03,P2,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user029@empresa.com
+INC000397,2025-11-21T12:10:03,2025-11-21T14:00:03,P1,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user092@empresa.com
+INC000398,2025-11-23T04:53:03,2025-11-23T04:59:03,P1,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user119@empresa.com
+INC000399,2025-12-16T15:51:03,2025-12-16T19:46:03,P4,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user062@empresa.com
+INC000400,2025-12-01T13:32:03,2025-12-01T14:55:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user117@empresa.com
+INC000401,2025-12-11T07:15:03,2025-12-11T07:29:03,P2,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user054@empresa.com
+INC000402,2025-12-05T00:21:03,2025-12-05T02:32:03,P1,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user120@empresa.com
+INC000403,2025-11-17T08:51:03,2025-11-17T10:12:03,P1,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user078@empresa.com
+INC000404,2025-11-29T21:33:03,2025-11-29T23:39:03,P3,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user068@empresa.com
+INC000405,2025-12-09T21:28:03,2025-12-09T23:32:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user025@empresa.com
+INC000406,2025-11-24T08:13:03,2025-11-24T11:30:03,P3,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user083@empresa.com
+INC000407,2025-11-17T14:07:03,2025-11-17T15:38:03,P2,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user073@empresa.com
+INC000408,2025-12-14T18:03:03,2025-12-14T20:51:03,P2,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user106@empresa.com
+INC000409,2025-11-20T21:28:03,2025-11-20T23:20:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user024@empresa.com
+INC000410,2025-12-01T16:11:03,2025-12-01T17:24:03,P4,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user034@empresa.com
+INC000411,2025-12-07T06:41:03,2025-12-07T07:54:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user039@empresa.com
+INC000412,2025-11-28T20:25:03,2025-11-28T23:17:03,P1,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user089@empresa.com
+INC000413,2025-11-22T07:51:03,2025-11-22T09:55:03,P1,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user021@empresa.com
+INC000414,2025-11-22T06:58:03,2025-11-22T09:51:03,P3,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000415,2025-11-26T22:04:03,2025-11-26T22:43:03,P2,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user020@empresa.com
+INC000416,2025-12-05T20:56:03,2025-12-06T00:05:03,P3,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user117@empresa.com
+INC000417,2025-11-28T05:01:03,2025-11-28T08:00:03,P2,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user112@empresa.com
+INC000418,2025-12-10T23:38:03,2025-12-11T02:48:03,P4,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user010@empresa.com
+INC000419,2025-11-19T18:11:03,2025-11-19T20:36:03,P1,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user026@empresa.com
+INC000420,2025-11-24T10:27:03,2025-11-24T11:55:03,P2,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user057@empresa.com
+INC000421,2025-12-13T11:41:03,2025-12-13T13:51:03,P2,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user116@empresa.com
+INC000422,2025-11-19T11:30:03,2025-11-19T13:36:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user066@empresa.com
+INC000423,2025-12-12T14:40:03,2025-12-12T15:04:03,P4,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user060@empresa.com
+INC000424,2025-12-04T23:12:03,2025-12-05T00:22:03,P1,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user096@empresa.com
+INC000425,2025-11-19T00:12:03,2025-11-19T02:05:03,P1,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user090@empresa.com
+INC000426,2025-11-20T02:07:03,2025-11-20T04:12:03,P1,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user037@empresa.com
+INC000427,2025-11-23T02:39:03,2025-11-23T05:28:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000428,2025-12-04T03:03:03,2025-12-04T04:49:03,P4,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user088@empresa.com
+INC000429,2025-12-16T16:34:03,2025-12-16T18:08:03,P2,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user023@empresa.com
+INC000430,2025-12-11T00:22:03,2025-12-11T01:04:03,P4,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user107@empresa.com
+INC000431,2025-11-30T12:37:03,2025-11-30T14:40:03,P1,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user055@empresa.com
+INC000432,2025-11-27T09:35:03,2025-11-27T10:48:03,P4,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user045@empresa.com
+INC000433,2025-11-25T12:36:03,2025-11-25T16:30:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user005@empresa.com
+INC000434,2025-11-27T21:36:03,2025-11-27T22:33:03,P1,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user013@empresa.com
+INC000435,2025-12-07T06:21:03,2025-12-07T08:59:03,P1,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user032@empresa.com
+INC000436,2025-12-06T22:11:03,2025-12-06T23:20:03,P4,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user028@empresa.com
+INC000437,2025-12-09T21:07:03,2025-12-09T22:26:03,P2,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user105@empresa.com
+INC000438,2025-12-13T05:29:03,2025-12-13T08:12:03,P3,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000439,2025-12-10T16:04:03,2025-12-10T17:05:03,P2,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user039@empresa.com
+INC000440,2025-12-12T06:49:03,2025-12-12T09:25:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user081@empresa.com
+INC000441,2025-11-19T01:56:03,2025-11-19T03:34:03,P4,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user101@empresa.com
+INC000442,2025-12-05T21:28:03,2025-12-05T23:22:03,P3,Backup,Backup lento,Backup lento - impactando usuários. Verificar logs e status.,user039@empresa.com
+INC000443,2025-12-11T10:17:03,2025-12-11T12:23:03,P2,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user109@empresa.com
+INC000444,2025-11-23T12:24:03,2025-11-23T16:00:03,P3,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user118@empresa.com
+INC000445,2025-12-05T21:40:03,2025-12-06T00:12:03,P4,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user018@empresa.com
+INC000446,2025-11-28T13:15:03,2025-11-28T14:12:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user083@empresa.com
+INC000447,2025-12-03T20:02:03,2025-12-03T20:35:03,P4,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user093@empresa.com
+INC000448,2025-11-29T03:57:03,2025-11-29T05:38:03,P1,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user078@empresa.com
+INC000449,2025-11-25T12:15:03,2025-11-25T14:50:03,P1,Rede,Link intermitente,Link intermitente - impactando usuários. Verificar logs e status.,user028@empresa.com
+INC000450,2025-12-02T02:25:03,2025-12-02T03:47:03,P2,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user028@empresa.com
+INC000451,2025-12-08T17:50:03,2025-12-08T18:57:03,P1,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user091@empresa.com
+INC000452,2025-11-27T20:08:03,2025-11-27T22:39:03,P4,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user100@empresa.com
+INC000453,2025-12-08T04:00:03,2025-12-08T06:26:03,P4,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user040@empresa.com
+INC000454,2025-12-10T06:51:03,2025-12-10T10:46:03,P3,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user060@empresa.com
+INC000455,2025-12-01T12:30:03,2025-12-01T13:32:03,P4,Rede,Latência alta,Latência alta - impactando usuários. Verificar logs e status.,user041@empresa.com
+INC000456,2025-12-12T13:09:03,2025-12-12T14:10:03,P1,Acesso,Usuário bloqueado,Usuário bloqueado - impactando usuários. Verificar logs e status.,user003@empresa.com
+INC000457,2025-11-30T09:09:03,2025-11-30T09:58:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user043@empresa.com
+INC000458,2025-12-12T21:05:03,2025-12-13T00:48:03,P4,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user064@empresa.com
+INC000459,2025-11-28T15:48:03,2025-11-28T19:13:03,P3,Backup,Veeam erro,Veeam erro - impactando usuários. Verificar logs e status.,user093@empresa.com
+INC000460,2025-11-24T14:29:03,2025-11-24T17:46:03,P4,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user022@empresa.com
+INC000461,2025-11-25T07:45:03,2025-11-25T11:42:03,P4,Servidor,VM travada,VM travada - impactando usuários. Verificar logs e status.,user083@empresa.com
+INC000462,2025-11-20T07:55:03,2025-11-20T10:51:03,P1,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user098@empresa.com
+INC000463,2025-11-23T04:54:03,2025-11-23T08:39:03,P4,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user009@empresa.com
+INC000464,2025-11-26T21:38:03,2025-11-26T23:52:03,P1,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user048@empresa.com
+INC000465,2025-12-09T03:36:03,2025-12-09T03:50:03,P4,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user069@empresa.com
+INC000466,2025-11-17T11:40:03,2025-11-17T11:54:03,P4,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user093@empresa.com
+INC000467,2025-11-17T17:27:03,2025-11-17T19:45:03,P3,M365,Exchange com atraso,Exchange com atraso - impactando usuários. Verificar logs e status.,user104@empresa.com
+INC000468,2025-11-21T07:56:03,2025-11-21T10:15:03,P1,Servidor,Disco cheio,Disco cheio - impactando usuários. Verificar logs e status.,user031@empresa.com
+INC000469,2025-12-03T01:52:03,2025-12-03T03:10:03,P3,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user011@empresa.com
+INC000470,2025-12-07T20:04:03,2025-12-07T22:38:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user090@empresa.com
+INC000471,2025-11-20T14:47:03,2025-11-20T17:44:03,P3,Servidor,CPU alta,CPU alta - impactando usuários. Verificar logs e status.,user012@empresa.com
+INC000472,2025-12-04T02:42:03,2025-12-04T05:13:03,P4,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user008@empresa.com
+INC000473,2025-11-20T17:02:03,2025-11-20T19:14:03,P2,Rede,Perda de pacote,Perda de pacote - impactando usuários. Verificar logs e status.,user083@empresa.com
+INC000474,2025-12-10T23:37:03,2025-12-10T23:52:03,P1,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user028@empresa.com
+INC000475,2025-11-29T06:50:03,2025-11-29T07:11:03,P4,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user088@empresa.com
+INC000476,2025-11-25T02:38:03,2025-11-25T04:03:03,P1,M365,Outlook não abre,Outlook não abre - impactando usuários. Verificar logs e status.,user027@empresa.com
+INC000477,2025-12-05T01:46:03,2025-12-05T02:10:03,P2,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user021@empresa.com
+INC000478,2025-12-12T17:42:03,2025-12-12T19:26:03,P2,Backup,Storage sem espaço,Storage sem espaço - impactando usuários. Verificar logs e status.,user043@empresa.com
+INC000479,2025-11-20T12:23:03,2025-11-20T14:36:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user007@empresa.com
+INC000480,2025-11-27T12:17:03,2025-11-27T16:01:03,P4,Rede,VPN caiu,VPN caiu - impactando usuários. Verificar logs e status.,user044@empresa.com
+INC000481,2025-12-01T19:13:03,2025-12-01T19:30:03,P4,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user101@empresa.com
+INC000482,2025-11-27T07:55:03,2025-11-27T09:36:03,P4,Acesso,Conta desabilitada,Conta desabilitada - impactando usuários. Verificar logs e status.,user049@empresa.com
+INC000483,2025-12-13T14:39:03,2025-12-13T17:33:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user011@empresa.com
+INC000484,2025-11-28T03:55:03,2025-11-28T07:07:03,P3,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user011@empresa.com
+INC000485,2025-12-04T05:47:03,2025-12-04T08:34:03,P2,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user095@empresa.com
+INC000486,2025-12-03T08:42:03,2025-12-03T09:19:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user001@empresa.com
+INC000487,2025-12-03T07:51:03,2025-12-03T11:15:03,P4,M365,Login falhando,Login falhando - impactando usuários. Verificar logs e status.,user014@empresa.com
+INC000488,2025-11-25T11:24:03,2025-11-25T13:19:03,P1,Servidor,Reboot inesperado,Reboot inesperado - impactando usuários. Verificar logs e status.,user072@empresa.com
+INC000489,2025-11-21T15:33:03,2025-11-21T15:49:03,P4,Backup,Job falhou,Job falhou - impactando usuários. Verificar logs e status.,user046@empresa.com
+INC000490,2025-12-14T02:44:03,2025-12-14T05:22:03,P1,Backup,Restore necessário,Restore necessário - impactando usuários. Verificar logs e status.,user111@empresa.com
+INC000491,2025-11-30T05:30:03,2025-11-30T07:20:03,P1,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user100@empresa.com
+INC000492,2025-12-12T23:27:03,2025-12-13T01:45:03,P2,Rede,Switch sem resposta,Switch sem resposta - impactando usuários. Verificar logs e status.,user088@empresa.com
+INC000493,2025-11-23T06:23:03,2025-11-23T07:36:03,P2,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user035@empresa.com
+INC000494,2025-11-19T19:50:03,2025-11-19T20:37:03,P2,Acesso,MFA falhando,MFA falhando - impactando usuários. Verificar logs e status.,user036@empresa.com
+INC000495,2025-12-08T23:38:03,2025-12-09T03:08:03,P3,Acesso,Senha expirada,Senha expirada - impactando usuários. Verificar logs e status.,user047@empresa.com
+INC000496,2025-12-15T09:26:03,2025-12-15T11:37:03,P2,M365,Defender alerta,Defender alerta - impactando usuários. Verificar logs e status.,user079@empresa.com
+INC000497,2025-11-21T19:34:03,2025-11-21T20:18:03,P4,Servidor,Serviço não inicia,Serviço não inicia - impactando usuários. Verificar logs e status.,user001@empresa.com
+INC000498,2025-12-15T04:08:03,2025-12-15T05:55:03,P3,Acesso,Sem permissão,Sem permissão - impactando usuários. Verificar logs e status.,user057@empresa.com
+INC000499,2025-12-16T13:50:03,2025-12-16T16:32:03,P4,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user039@empresa.com
+INC000500,2025-12-08T17:56:03,2025-12-08T19:21:03,P2,M365,Teams com erro,Teams com erro - impactando usuários. Verificar logs e status.,user051@empresa.com
