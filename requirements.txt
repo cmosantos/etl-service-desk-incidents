@@ -1,1 +1,2 @@
-No external dependencies (stdlib-only).
+# Standard library only.
+# No external dependencies are required.
