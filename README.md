@@ -5,7 +5,7 @@
 <h1 align="center">ETL Service Desk Incidents</h1>
 
 <p align="center">
-  Pipeline em Python para processar incidentes de suporte, classificar chamados, calcular tempo de resolução, identificar violações de SLA e gerar saídas prontas para análise.
+  Pipeline em Python para processar incidentes de suporte, classificar chamados, calcular tempo de resolução, identificar violações de SLA e gerar dados prontos para análise.
 </p>
 
 <p align="center">
@@ -13,52 +13,52 @@
   <img src="https://img.shields.io/badge/ETL-Pipeline-0F766E?style=for-the-badge" alt="ETL Pipeline">
   <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
   <img src="https://img.shields.io/badge/Service%20Desk-SLA-7C3AED?style=for-the-badge" alt="Service Desk SLA">
-  <img src="https://img.shields.io/badge/Status-Concluído-15803D?style=for-the-badge" alt="Status concluído">
+  <a href="https://github.com/cmosantos/etl-service-desk-incidents/actions/workflows/tests.yml">
+    <img src="https://github.com/cmosantos/etl-service-desk-incidents/actions/workflows/tests.yml/badge.svg" alt="Tests">
+  </a>
 </p>
 
 ---
 
 ## Visão geral
 
-Este projeto simula um cenário de **Service Desk** no qual dados de incidentes precisam ser organizados e transformados em informações úteis para acompanhamento operacional.
+Este projeto representa um cenário de **Service Desk** no qual dados de incidentes precisam ser tratados e transformados em indicadores operacionais.
 
-O pipeline recebe um arquivo CSV, valida as colunas obrigatórias, remove registros inválidos e duplicados, classifica os chamados por categoria, calcula o tempo de resolução, compara cada incidente com a meta de SLA e gera três tipos de saída:
+O pipeline recebe um arquivo CSV, valida a estrutura, remove registros inválidos e duplicados, classifica chamados por categoria, calcula o tempo de resolução, compara cada incidente com a meta de SLA e entrega os resultados em formatos adequados para consulta e análise.
 
-- arquivo CSV tratado;
-- banco de dados SQLite;
-- relatório em Markdown com indicadores consolidados.
-
-O projeto foi desenvolvido utilizando apenas a **biblioteca padrão do Python**, sem dependências externas.
+O projeto utiliza somente a **biblioteca padrão do Python**, sem dependências externas.
 
 ---
 
 ## Valor para o negócio
 
-Em uma operação real de suporte, dados de chamados costumam estar espalhados, incompletos ou difíceis de analisar. Este projeto demonstra como um pipeline simples pode ajudar a:
+O fluxo demonstra como automatizar tarefas comuns de consolidação de dados em operações de suporte:
 
-- identificar categorias com maior volume de incidentes;
-- acompanhar a distribuição dos chamados por prioridade;
+- identificar as categorias com maior volume de incidentes;
+- acompanhar a distribuição por prioridade;
 - medir violações de SLA;
-- padronizar dados antes de enviá-los para relatórios ou dashboards;
+- padronizar dados antes de relatórios e dashboards;
 - criar uma base estruturada para análises futuras;
-- reduzir trabalho manual na consolidação de informações operacionais.
+- reduzir trabalho manual no tratamento de chamados.
 
 ---
 
-## Arquitetura do pipeline
+## Arquitetura
 
 ```mermaid
 flowchart LR
     A[CSV de incidentes] --> B[Extração]
-    B --> C[Validação de colunas]
+    B --> C[Validação]
     C --> D[Limpeza e deduplicação]
     D --> E[Classificação por regras]
     E --> F[Cálculo de resolução e SLA]
-    F --> G[Agregações operacionais]
+    F --> G[Agregações]
     G --> H[CSV tratado]
     G --> I[SQLite]
     G --> J[Relatório Markdown]
 ```
+
+Mais detalhes em [`docs/architecture.md`](./docs/architecture.md).
 
 ---
 
@@ -68,21 +68,21 @@ flowchart LR
 
 - leitura de arquivos CSV;
 - validação das colunas obrigatórias;
-- tratamento inicial dos registros de entrada.
+- interrupção do processo quando a estrutura de entrada é inválida.
 
 ### Transformação
 
 - remoção de registros sem `ticket_id`;
 - eliminação de chamados duplicados;
 - cálculo do tempo de resolução em minutos;
-- definição da meta de SLA conforme a prioridade;
-- identificação de violação de SLA;
+- associação entre prioridade e meta de SLA;
+- identificação de violações;
 - enriquecimento com dia da semana e hora de abertura;
 - classificação automática por palavras-chave.
 
 ### Carregamento
 
-- geração de CSV tratado;
+- geração de CSV processado;
 - criação de banco SQLite;
 - geração de relatório em Markdown;
 - consolidação por categoria e prioridade;
@@ -105,51 +105,51 @@ Um incidente é marcado como violação quando o tempo de resolução ultrapassa
 
 ## Classificação dos chamados
 
-A classificação é feita por regras simples baseadas em palavras-chave presentes no título e na descrição.
+A classificação utiliza regras transparentes baseadas no título e na descrição.
 
-| Categoria | Exemplos de palavras-chave |
+| Categoria | Exemplos de termos |
 |---|---|
-| Microsoft 365 | Outlook, Teams, Exchange, Defender, M365 |
+| M365 | Outlook, Teams, Exchange, Defender, Microsoft 365 |
 | Rede | VPN, switch, latência, perda de pacote, roteador |
 | Acesso | senha, MFA, permissão, bloqueio, falha de login |
 | Backup | backup, restore, Veeam, job, storage |
-| Servidor | categoria padrão quando nenhuma regra anterior é encontrada |
+| Servidor | categoria padrão quando nenhuma regra é encontrada |
 
-> O classificador é propositalmente simples e não utiliza machine learning. Ele demonstra uma primeira etapa de automação baseada em regras.
+> O classificador é propositalmente simples e não utiliza machine learning. Ele representa uma primeira etapa de automação baseada em regras.
 
 ---
 
-## Estrutura dos dados de entrada
+## Dados processados
+
+### Colunas obrigatórias
 
 | Campo | Descrição |
 |---|---|
 | `ticket_id` | Identificador único do incidente |
-| `created_at` | Data e hora de abertura no formato ISO |
-| `resolved_at` | Data e hora de resolução no formato ISO |
+| `created_at` | Data e hora de abertura em formato ISO |
+| `resolved_at` | Data e hora de resolução em formato ISO |
 | `priority` | Prioridade P1, P2, P3 ou P4 |
-| `category` | Categoria original do chamado |
 | `title` | Título do incidente |
 | `description` | Descrição do problema |
-| `requester` | Solicitante do chamado |
 
----
-
-## Campos gerados pelo pipeline
+### Campos gerados
 
 | Campo | Descrição |
 |---|---|
-| `resolution_minutes` | Tempo total de resolução em minutos |
-| `sla_minutes` | Meta de SLA associada à prioridade |
+| `resolution_minutes` | Tempo total de resolução |
+| `sla_minutes` | Meta associada à prioridade |
 | `is_sla_breach` | Indicador de violação: `0` ou `1` |
 | `dow` | Dia da semana da abertura |
-| `hour` | Hora de abertura |
+| `hour` | Hora da abertura |
 | `category_pred` | Categoria calculada pelas regras |
+
+Consulte o dicionário completo em [`docs/data-dictionary.md`](./docs/data-dictionary.md).
 
 ---
 
 ## Resultado do exemplo atual
 
-O repositório inclui um relatório gerado a partir de **500 incidentes sintéticos**.
+O relatório incluído no repositório foi gerado a partir de **500 incidentes sintéticos**.
 
 | Indicador | Resultado |
 |---|---:|
@@ -161,7 +161,7 @@ O repositório inclui um relatório gerado a partir de **500 incidentes sintéti
 | Violações de SLA em P3 | 0,00% |
 | Violações de SLA em P4 | 0,00% |
 
-Consulte o relatório completo em [`outputs/reports/summary.md`](./outputs/reports/summary.md).
+Veja o resultado completo em [`outputs/reports/summary.md`](./outputs/reports/summary.md).
 
 ---
 
@@ -176,14 +176,14 @@ cd etl-service-desk-incidents
 
 ### 2. Crie o ambiente virtual
 
-No Windows PowerShell:
+Windows PowerShell:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-No Linux ou macOS:
+Linux ou macOS:
 
 ```bash
 python3 -m venv .venv
@@ -196,18 +196,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-O projeto não possui bibliotecas externas; o arquivo existe apenas para documentar essa característica.
+O projeto não possui dependências externas; o arquivo registra essa característica.
 
-### 4. Gere os dados de exemplo
+### 4. Gere os dados sintéticos
 
 ```bash
 python -m src.generate_sample_data
-```
-
-Esse comando cria um arquivo com 500 incidentes sintéticos em:
-
-```text
-data/raw/incidents.csv
 ```
 
 ### 5. Execute o pipeline
@@ -226,7 +220,7 @@ outputs/db/incidents.sqlite
 outputs/reports/summary.md
 ```
 
-Também é possível personalizar os caminhos:
+Os caminhos também podem ser personalizados:
 
 ```bash
 python -m src.pipeline \
@@ -236,15 +230,27 @@ python -m src.pipeline \
   --report outputs/reports/summary.md
 ```
 
-No PowerShell, use o acento grave para quebrar linhas:
+---
 
-```powershell
-python -m src.pipeline `
-  --input data/raw/incidents.csv `
-  --clean_csv data/processed/incidents_clean.csv `
-  --db outputs/db/incidents.sqlite `
-  --report outputs/reports/summary.md
+## Testes automatizados
+
+O projeto utiliza `unittest`, também disponível na biblioteca padrão do Python.
+
+Execute localmente:
+
+```bash
+python -m unittest discover -s tests -v
 ```
+
+Os testes verificam:
+
+- classificação de incidentes;
+- enriquecimento dos registros;
+- cálculo e identificação de violação de SLA;
+- remoção de duplicidades;
+- descarte de registros sem identificador.
+
+O workflow em `.github/workflows/tests.yml` executa os testes automaticamente em cada `push` e `pull request` para a branch `main`.
 
 ---
 
@@ -252,6 +258,9 @@ python -m src.pipeline `
 
 ```text
 etl-service-desk-incidents/
+├── .github/
+│   └── workflows/
+│       └── tests.yml
 ├── assets/
 │   └── etl-service-desk-banner.svg
 ├── data/
@@ -270,6 +279,8 @@ etl-service-desk-incidents/
 │   ├── load.py
 │   ├── pipeline.py
 │   └── transform.py
+├── tests/
+│   └── test_transform.py
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -279,25 +290,24 @@ etl-service-desk-incidents/
 
 ## Limitações atuais
 
-- os dados utilizados são sintéticos;
+- os dados do exemplo são sintéticos;
 - a classificação é baseada em palavras-chave;
-- o banco SQLite grava os campos como texto;
+- os campos são persistidos como texto no SQLite;
 - ainda não há interface gráfica ou dashboard;
-- ainda não há testes automatizados.
+- o processamento é feito em memória e foi pensado para pequenos volumes.
 
-Essas limitações foram mantidas de forma transparente porque o objetivo atual é demonstrar o fluxo ETL e o raciocínio operacional aplicado a incidentes de Service Desk.
+Essas limitações são apresentadas de forma transparente porque o objetivo atual é demonstrar o fluxo ETL e o raciocínio operacional aplicado a incidentes de Service Desk.
 
 ---
 
 ## Próximas evoluções
 
-- adicionar testes unitários;
-- validar datas e prioridades com mensagens de erro mais claras;
+- validar datas e prioridades com mensagens mais detalhadas;
 - criar dashboard com indicadores de SLA;
 - adicionar análise de tendência por período;
 - integrar dados exportados de Jira ou outra ferramenta ITSM;
-- substituir o classificador de regras por um modelo de machine learning;
-- criar execução automatizada com GitHub Actions.
+- melhorar a tipagem dos campos no SQLite;
+- substituir o classificador de regras por um modelo de machine learning.
 
 ---
 
