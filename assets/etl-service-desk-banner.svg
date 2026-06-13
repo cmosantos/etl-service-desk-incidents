@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360" role="img" aria-labelledby="title desc">
   <title id="title">ETL Service Desk Incidents</title>
-  <desc id="desc">Fluxo visual de dados de incidentes passando pelas etapas de extração, transformação, carregamento e relatório.</desc>
+  <desc id="desc">Fluxo visual centralizado de dados de incidentes passando pelas etapas de extração, transformação, carregamento e relatório.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
@@ -23,62 +23,62 @@
     <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360M1200 0V360M1320 0V360"/>
   </g>
 
-  <text x="90" y="92" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">ETL Service Desk Incidents</text>
-  <text x="90" y="132" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="21">Pipeline em Python para análise de chamados, classificação e monitoramento de SLA</text>
+  <text x="720" y="86" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">ETL Service Desk Incidents</text>
+  <text x="720" y="128" text-anchor="middle" fill="#a8b6c8" font-family="Segoe UI, Arial, sans-serif" font-size="21">Pipeline em Python para análise de chamados, classificação e monitoramento de SLA</text>
 
-  <g transform="translate(90 190)" font-family="Segoe UI, Arial, sans-serif">
+  <g transform="translate(80 190)" font-family="Segoe UI, Arial, sans-serif">
     <g>
-      <rect width="210" height="92" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
-      <circle cx="42" cy="46" r="19" fill="#0c4a6e"/>
-      <path d="M32 37h20v18H32zM35 33h14" fill="none" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round"/>
-      <text x="142" y="41" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">CSV de incidentes</text>
-      <text x="142" y="66" text-anchor="middle" fill="#b6c2d1" font-size="15">Entrada estruturada</text>
+      <rect width="220" height="92" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="38" cy="46" r="19" fill="#0c4a6e"/>
+      <path d="M28 37h20v18H28zM31 33h14" fill="none" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round"/>
+      <text x="142" y="40" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">CSV de incidentes</text>
+      <text x="142" y="66" text-anchor="middle" fill="#c3cedb" font-size="15">Entrada estruturada</text>
     </g>
 
     <g transform="translate(265 0)">
-      <rect width="210" height="92" rx="18" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
-      <circle cx="42" cy="46" r="19" fill="#164e63"/>
-      <path d="M32 36h20M32 46h20M32 56h14" stroke="#67e8f9" stroke-width="3" stroke-linecap="round"/>
-      <text x="142" y="41" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Extração</text>
-      <text x="142" y="66" text-anchor="middle" fill="#b6c2d1" font-size="15">Leitura e validação</text>
+      <rect width="220" height="92" rx="18" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
+      <circle cx="38" cy="46" r="19" fill="#164e63"/>
+      <path d="M28 36h20M28 46h20M28 56h14" stroke="#67e8f9" stroke-width="3" stroke-linecap="round"/>
+      <text x="142" y="40" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Extração</text>
+      <text x="142" y="66" text-anchor="middle" fill="#c3cedb" font-size="15">Leitura e validação</text>
     </g>
 
     <g transform="translate(530 0)">
-      <rect width="235" height="92" rx="18" fill="#0f172a" stroke="#818cf8" stroke-width="2"/>
-      <circle cx="42" cy="46" r="19" fill="#312e81"/>
-      <path d="M33 35l18 22M51 35L33 57" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round"/>
-      <text x="154" y="41" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Transformação</text>
-      <text x="154" y="66" text-anchor="middle" fill="#b6c2d1" font-size="15">Categoria, tempo e SLA</text>
+      <rect width="220" height="92" rx="18" fill="#0f172a" stroke="#818cf8" stroke-width="2"/>
+      <circle cx="38" cy="46" r="19" fill="#312e81"/>
+      <path d="M29 35l18 22M47 35L29 57" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round"/>
+      <text x="142" y="40" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Transformação</text>
+      <text x="142" y="66" text-anchor="middle" fill="#c3cedb" font-size="15">Categoria, tempo e SLA</text>
     </g>
 
-    <g transform="translate(820 0)">
+    <g transform="translate(795 0)">
       <rect width="220" height="92" rx="18" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
-      <circle cx="42" cy="46" r="19" fill="#4c1d95"/>
-      <ellipse cx="42" cy="37" rx="11" ry="5" fill="none" stroke="#c4b5fd" stroke-width="2.5"/>
-      <path d="M31 37v18c0 3 5 5 11 5s11-2 11-5V37M31 46c0 3 5 5 11 5s11-2 11-5" fill="none" stroke="#c4b5fd" stroke-width="2.5"/>
-      <text x="147" y="41" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Carregamento</text>
-      <text x="147" y="66" text-anchor="middle" fill="#b6c2d1" font-size="14">CSV, SQLite e Markdown</text>
+      <circle cx="38" cy="46" r="19" fill="#4c1d95"/>
+      <ellipse cx="38" cy="37" rx="11" ry="5" fill="none" stroke="#c4b5fd" stroke-width="2.5"/>
+      <path d="M27 37v18c0 3 5 5 11 5s11-2 11-5V37M27 46c0 3 5 5 11 5s11-2 11-5" fill="none" stroke="#c4b5fd" stroke-width="2.5"/>
+      <text x="142" y="40" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Carregamento</text>
+      <text x="142" y="66" text-anchor="middle" fill="#c3cedb" font-size="14">CSV, SQLite e Markdown</text>
     </g>
 
-    <g transform="translate(1095 0)">
-      <rect width="230" height="92" rx="18" fill="#0f172a" stroke="#c084fc" stroke-width="2"/>
-      <circle cx="42" cy="46" r="19" fill="#581c87"/>
-      <path d="M32 56V44M42 56V36M52 56V48" stroke="#e9d5ff" stroke-width="3" stroke-linecap="round"/>
-      <text x="152" y="41" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Relatório</text>
-      <text x="152" y="66" text-anchor="middle" fill="#b6c2d1" font-size="15">Métricas operacionais</text>
+    <g transform="translate(1060 0)">
+      <rect width="220" height="92" rx="18" fill="#0f172a" stroke="#c084fc" stroke-width="2"/>
+      <circle cx="38" cy="46" r="19" fill="#581c87"/>
+      <path d="M28 56V44M38 56V36M48 56V48" stroke="#e9d5ff" stroke-width="3" stroke-linecap="round"/>
+      <text x="142" y="40" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Relatório</text>
+      <text x="142" y="66" text-anchor="middle" fill="#c3cedb" font-size="15">Métricas operacionais</text>
     </g>
 
     <g fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" filter="url(#glow)">
-      <path d="M218 46h35"/>
-      <path d="M483 46h35"/>
-      <path d="M773 46h35"/>
-      <path d="M1048 46h35"/>
+      <path d="M228 46h25"/>
+      <path d="M493 46h25"/>
+      <path d="M758 46h25"/>
+      <path d="M1023 46h25"/>
     </g>
     <g fill="#c4b5fd">
       <path d="M253 46l-9-6v12z"/>
       <path d="M518 46l-9-6v12z"/>
-      <path d="M808 46l-9-6v12z"/>
-      <path d="M1083 46l-9-6v12z"/>
+      <path d="M783 46l-9-6v12z"/>
+      <path d="M1048 46l-9-6v12z"/>
     </g>
   </g>
 </svg>
