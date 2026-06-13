@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/etl-service-desk-banner.svg" alt="Banner do projeto ETL Service Desk Incidents" width="100%" />
+  <img src="./assets/etl-service-desk-banner-centered.svg" alt="Banner do projeto ETL Service Desk Incidents" width="100%" />
 </p>
 
 <h1 align="center">ETL Service Desk Incidents</h1>
@@ -262,7 +262,7 @@ etl-service-desk-incidents/
 │   └── workflows/
 │       └── tests.yml
 ├── assets/
-│   └── etl-service-desk-banner.svg
+│   └── etl-service-desk-banner-centered.svg
 ├── data/
 │   ├── raw/
 │   └── processed/
