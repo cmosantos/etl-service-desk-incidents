@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="390" viewBox="0 0 1440 390" role="img" aria-labelledby="title desc">
+  <title id="title">ETL Service Desk Incidents</title>
+  <desc id="desc">Pipeline ETL centralizado para análise de incidentes de Service Desk.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0b1f35"/>
+      <stop offset="1" stop-color="#14213d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="390" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.12" stroke="#7dd3fc" stroke-width="1">
+    <path d="M0 65H1440M0 130H1440M0 195H1440M0 260H1440M0 325H1440"/>
+    <path d="M120 0V390M240 0V390M360 0V390M480 0V390M600 0V390M720 0V390M840 0V390M960 0V390M1080 0V390M1200 0V390M1320 0V390"/>
+  </g>
+
+  <text x="720" y="78" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">ETL Service Desk Incidents</text>
+  <text x="720" y="120" text-anchor="middle" fill="#a8b6c8" font-family="Segoe UI, Arial, sans-serif" font-size="21">Pipeline em Python para análise de chamados, classificação e monitoramento de SLA</text>
+
+  <g transform="translate(80 175)" font-family="Segoe UI, Arial, sans-serif">
+    <g>
+      <rect width="220" height="130" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="110" cy="34" r="20" fill="#0c4a6e"/>
+      <path d="M100 26h20v18h-20zM103 22h14" fill="none" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round"/>
+      <text x="110" y="78" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">CSV de incidentes</text>
+      <text x="110" y="105" text-anchor="middle" fill="#c3cedb" font-size="15">Entrada estruturada</text>
+    </g>
+
+    <g transform="translate(265 0)">
+      <rect width="220" height="130" rx="18" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
+      <circle cx="110" cy="34" r="20" fill="#164e63"/>
+      <path d="M100 24h20M100 34h20M100 44h14" stroke="#67e8f9" stroke-width="3" stroke-linecap="round"/>
+      <text x="110" y="78" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Extração</text>
+      <text x="110" y="105" text-anchor="middle" fill="#c3cedb" font-size="15">Leitura e validação</text>
+    </g>
+
+    <g transform="translate(530 0)">
+      <rect width="220" height="130" rx="18" fill="#0f172a" stroke="#818cf8" stroke-width="2"/>
+      <circle cx="110" cy="34" r="20" fill="#312e81"/>
+      <path d="M101 23l18 22M119 23L101 45" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round"/>
+      <text x="110" y="78" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Transformação</text>
+      <text x="110" y="105" text-anchor="middle" fill="#c3cedb" font-size="15">Categoria, tempo e SLA</text>
+    </g>
+
+    <g transform="translate(795 0)">
+      <rect width="220" height="130" rx="18" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
+      <circle cx="110" cy="34" r="20" fill="#4c1d95"/>
+      <ellipse cx="110" cy="27" rx="11" ry="5" fill="none" stroke="#c4b5fd" stroke-width="2.5"/>
+      <path d="M99 27v18c0 3 5 5 11 5s11-2 11-5V27M99 36c0 3 5 5 11 5s11-2 11-5" fill="none" stroke="#c4b5fd" stroke-width="2.5"/>
+      <text x="110" y="78" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Carregamento</text>
+      <text x="110" y="105" text-anchor="middle" fill="#c3cedb" font-size="14">CSV, SQLite e Markdown</text>
+    </g>
+
+    <g transform="translate(1060 0)">
+      <rect width="220" height="130" rx="18" fill="#0f172a" stroke="#c084fc" stroke-width="2"/>
+      <circle cx="110" cy="34" r="20" fill="#581c87"/>
+      <path d="M100 44V32M110 44V24M120 44V36" stroke="#e9d5ff" stroke-width="3" stroke-linecap="round"/>
+      <text x="110" y="78" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700">Relatório</text>
+      <text x="110" y="105" text-anchor="middle" fill="#c3cedb" font-size="15">Métricas operacionais</text>
+    </g>
+
+    <g fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round">
+      <path d="M228 65h25"/>
+      <path d="M493 65h25"/>
+      <path d="M758 65h25"/>
+      <path d="M1023 65h25"/>
+    </g>
+    <g fill="#c4b5fd">
+      <path d="M253 65l-9-6v12z"/>
+      <path d="M518 65l-9-6v12z"/>
+      <path d="M783 65l-9-6v12z"/>
+      <path d="M1048 65l-9-6v12z"/>
+    </g>
+  </g>
+
+  <text x="720" y="350" text-anchor="middle" fill="#7f8da3" font-family="Segoe UI, Arial, sans-serif" font-size="14">Extração • Transformação • Carregamento • Métricas operacionais</text>
+</svg>
