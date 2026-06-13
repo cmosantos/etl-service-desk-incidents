@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
   <img src="https://img.shields.io/badge/Service%20Desk-SLA-7C3AED?style=for-the-badge" alt="Service Desk SLA">
   <a href="https://github.com/cmosantos/etl-service-desk-incidents/actions/workflows/tests.yml">
-    <img src="https://github.com/cmosantos/etl-service-desk-incidents/actions/workflows/tests.yml/badge.svg" alt="Tests">
+    <img src="https://img.shields.io/badge/Tests-Passing-15803D?style=for-the-badge&logo=githubactions&logoColor=white" alt="Tests passing">
   </a>
 </p>
 
@@ -313,13 +313,7 @@ Essas limitações são apresentadas de forma transparente porque o objetivo atu
 
 ## Autor
 
-**Cláudio Santos**  
-Analista de Suporte Júnior | Microsoft 365 | Cloud e Automação com IA
-
-- [GitHub](https://github.com/cmosantos)
-- [LinkedIn](https://www.linkedin.com/in/claudio--santos/)
-- [Portfólio](https://future-cloud-ai.lovable.app)
-- [Hashnode](https://claudiosantos.hashnode.dev)
+**Cláudio Santos**
 
 ---
 
